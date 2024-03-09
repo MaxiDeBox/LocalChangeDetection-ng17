@@ -1,0 +1,16 @@
+.container {
+	padding: 2rem;
+	color: black;
+	text-align: center;
+
+	display: grid;
+	justify-content: center;
+	gap: 1rem;
+
+	width: 1000px;
+}
+
+.children {
+	display: flex;
+	gap: 1rem;
+}

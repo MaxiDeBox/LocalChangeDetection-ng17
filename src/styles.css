@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-content: center;
+  background-color: rgb(15 23 42);
+  color: white;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 3px;
+  background: #343a40;
+  border: 1px solid #343a40;
+  margin-bottom: 1rem;
+  display: block;
+  color: white;
+	cursor: pointer;
+  justify-self: center;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.container {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+.container {
+	padding: 2rem;
+	background-color: lightcyan;
+	color: black;
+	text-align: center;
+
+	display: grid;
+	justify-content: center;
+	gap: 1rem;
+
+	width: 400px;
+}
+
+.children {
+	display: flex;
+	gap: 1rem;
+}
